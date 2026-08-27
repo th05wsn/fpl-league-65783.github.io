@@ -3,83 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>League Dashboard | FPL</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <title>FPL Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root { 
+            --bg: #f4f4f9; --text: #333; --card: #fff; --border: #ddd; 
+            --primary: #00ff87; --primary-text: #37003c;
+        }
+        [data-theme="dark"] { 
+            --bg: #121212; --text: #e0e0e0; --card: #1e1e1e; --border: #333; 
+            --primary: #37003c; --primary-text: #00ff87;
+        }
+        
+        body { 
+            background-color: var(--bg); color: var(--text); 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            padding: 20px; max-width: 1000px; margin: 0 auto;
+            transition: all 0.3s ease;
+        }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        
+        button { 
+            cursor: pointer; padding: 8px 16px; margin: 0 5px 5px 0;
+            background: var(--card); color: var(--text);
+            border: 1px solid var(--border); border-radius: 6px;
+            font-weight: bold; transition: background 0.2s;
+        }
+        button:hover { background: var(--border); }
+        button.action-btn { background: var(--primary); color: var(--primary-text); border: none; }
+        
+        .page-view { 
+            display: none; background: var(--card); 
+            padding: 20px; border-radius: 8px; border: 1px solid var(--border);
+        }
+        .active-view { display: block; }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border); }
+        th { cursor: pointer; user-select: none; }
+        th:hover { background-color: var(--border); }
+        
+        #email-preview { 
+            margin-top: 20px; padding: 15px; background: #272822; color: #f8f8f2;
+            border-radius: 6px; display: none; white-space: pre-wrap; font-family: monospace;
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <div class="brand">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#00ff87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10z"></path>
-                    <path d="M2 12h20"></path>
-                </svg>
-                <div class="header-titles">
-                    <span class="season-tag">2026/2027 SEASON</span>
-                    <h1 id="league-name">Loading Dashboard...</h1>
-                </div>
-            </div>
-            <div class="update-status">
-                <span class="pulse-dot"></span> <span id="last-updated-text">Live Standings</span>
-            </div>
+
+    <div class="header">
+        <h1 id="league-title">Loading FPL Dashboard...</h1>
+        <div>
+            <button onclick="toggleTheme()">🌓 Toggle Theme</button>
+            <button class="action-btn" onclick="generateEmail()">✉️ Copy Email Overview</button>
         </div>
-    </header>
+    </div>
 
-    <main class="dashboard">
-        <!-- Global FPL Top Players Widget -->
-        <section class="top-players-widget" id="top-players-container" style="display: none;">
-            <!-- Injected via JS -->
-        </section>
+    <div class="nav-buttons">
+        <button onclick="showPage('standings')">League Standings</button>
+        <button onclick="showPage('analytics')">Trend Analytics</button>
+    </div>
 
-        <!-- Top 3 Podium -->
-        <section class="podium-section" id="podium-container" style="display: none;">
-            <!-- Injected via JS -->
-        </section>
+    <!-- View: Standings -->
+    <div id="standings" class="page-view active-view">
+        <h2>Mini-League Standings</h2>
+        <p><i>Click column headers to sort.</i></p>
+        <table id="standings-table">
+            <thead>
+                <tr>
+                    <th onclick="sortTable('rank', true)">Rank ↕</th>
+                    <th onclick="sortTable('manager', false)">Manager ↕</th>
+                    <th onclick="sortTable('team_name', false)">Team ↕</th>
+                    <th onclick="sortTable('gw_points', true)">GW Points ↕</th>
+                    <th onclick="sortTable('total_points', true)">Total Points ↕</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
 
-        <!-- Points Race Chart -->
-        <section class="chart-section" id="chart-section">
-            <div class="table-card" style="padding: 1.5rem;">
-                <div class="table-header" style="border: none; padding: 0 0 1rem 0;">
-                    <h2>The Points Race</h2>
-                </div>
-                <div id="chart-container" style="position: relative; height: 300px; width: 100%;">
-                    <canvas id="pointsChart"></canvas>
-                </div>
-            </div>
-        </section>
+    <!-- View: Analytics -->
+    <div id="analytics" class="page-view">
+        <h2>Top 5 Managers - Points Trajectory</h2>
+        <canvas id="trendChart" width="800" height="400"></canvas>
+    </div>
 
-        <!-- Full League Table -->
-        <section class="table-section">
-            <div class="table-card">
-                <div class="table-header">
-                    <h2>League Standings</h2>
-                </div>
-                <div class="table-responsive">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Pos</th>
-                                <th class="team-col">Manager & Team</th>
-                                <th class="center-col">Form (Last 3)</th>
-                                <th class="center-col">GW Pts</th>
-                                <th class="center-col">Total Pts</th>
-                                <th class="center-col">Gap</th>
-                                <th class="center-col">To 1st</th>
-                            </tr>
-                        </thead>
-                        <tbody id="league-table-body">
-                            <!-- Injected via JS -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-    </main>
+    <!-- Email Output -->
+    <div id="email-preview"></div>
 
-    <script src="app.js"></script>
+    <script>
+        let fplData = null;
+        let currentSort = { column: 'rank', asc: true };
+
+        // Fetch Data on Load
+        fetch('fpl_data.json')
+            .then(response => response.json())
+            .then(data => {
+                fplData = data;
+                document.getElementById('league-title').innerText = `League ${data.league_id} - Gameweek ${data.gameweek}`;
+                renderTable();
+                initChart();
+            })
+            .catch(err => console.error("Error loading FPL data:", err));
+
+        // Tab Navigation
+        function showPage(pageId) {
+            document.querySelectorAll('.page-view').forEach(p => p.classList.remove('active-view'));
+            document.getElementById(pageId).classList.add('active-view');
+        }
+
+        // Theme Toggle
+        function toggleTheme() {
+            const body = document.body;
+            const isDark = body.getAttribute('data-theme') === 'dark';
+            body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+        }
+
+        // Render & Sort Table
+        function renderTable() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = '';
+            
+            fplData.standings.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${row.rank}</td>
+                    <td>${row.manager}</td>
+                    <td>${row.team_name}</td>
+                    <td>${row.gw_points}</td>
+                    <td><strong>${row.total_points}</strong></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function sortTable(column, isNumeric) {
+            fplData.standings.sort((a, b) => {
+                let valA = a[column];
+                let valB = b[column];
+                
+                if (isNumeric) {
+                    return currentSort.asc ? valA - valB : valB - valA;
+                } else {
+                    return currentSort.asc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                }
+            });
+            currentSort.asc = !currentSort.asc;
+            renderTable();
+        }
+
+        // Initialize Chart.js
+        function initChart() {
+            const ctx = document.getElementById('trendChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: fplData.trend_data,
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+        }
+
+        // Email Generator (Handles Ties)
+        function generateEmail() {
+            if (!fplData) return;
+
+            // Group overall standings by rank to handle ties visually
+            const top5 = fplData.standings.slice(0, 5);
+            let standingsText = "";
+            top5.forEach(manager => {
+                standingsText += `Rank ${manager.rank}: ${manager.manager} (${manager.team_name}) - ${manager.total_points} pts\n`;
+            });
+
+            // Handle Weekly Ties
+            const gwScorerNames = fplData.gw_top_scorers.map(m => m.manager).join(" & ");
+            const gwWinningScore = fplData.gw_top_scorers[0].gw_points;
+
+            const emailText = 
+`🏆 Mini-League ${fplData.league_id} Update - Gameweek ${fplData.gameweek} 🏆
+
+📊 Current Top Standings:
+${standingsText}
+🔥 Highest Weekly Scorer(s): 
+${gwScorerNames} with ${gwWinningScore} points!
+
+Check the live dashboard for full standings and rank trend charts.`;
+            
+            navigator.clipboard.writeText(emailText).then(() => {
+                const preview = document.getElementById('email-preview');
+                preview.style.display = 'block';
+                preview.innerText = "✅ Copied to clipboard!\n\n" + emailText;
+            });
+        }
+    </script>
 </body>
-
 </html>
