@@ -1,62 +1,63 @@
 import requests
 import json
 import os
-import time
-import datetime
 
-LEAGUE_ID = os.environ.get("LEAGUE_ID")
+LEAGUE_ID = 65783
+API_BASE = "https://fantasy.premierleague.com/api"
 
-if not LEAGUE_ID:
-    print("Error: LEAGUE_ID secret is missing!")
-    exit(1)
+def get_fpl_data():
+    # 1. Fetch General Info (Current Gameweek)
+    bootstrap_res = requests.get(f"{API_BASE}/bootstrap-static/").json()
+    current_gw = next(gw for gw in bootstrap_res['events'] if gw['is_current'])['id']
+    
+    # 2. Fetch League Standings
+    league_res = requests.get(f"{API_BASE}/leagues-classic/{LEAGUE_ID}/standings/").json()
+    standings = league_res['standings']['results']
+    
+    # 3. Process Tie Logic for Overall Standings
+    # The FPL API already assigns the same 'rank' integer to tied players.
+    processed_standings = []
+    for entry in standings:
+        processed_standings.append({
+            "rank": entry['rank'],
+            "manager": entry['player_name'],
+            "team_name": entry['entry_name'],
+            "gw_points": entry['event_total'],
+            "total_points": entry['total'],
+            "entry_id": entry['entry']
+        })
+        
+    # 4. Process Tie Logic for Weekly High Scorers
+    max_gw_points = max(s['gw_points'] for s in processed_standings)
+    gw_top_scorers = [s for s in processed_standings if s['gw_points'] == max_gw_points]
+    
+    # 5. Fetch Trend Data for Chart (Top 5 Managers Only to save API calls)
+    trend_data = {"labels": [f"GW {i}" for i in range(1, current_gw + 1)], "datasets": []}
+    
+    for manager in processed_standings[:5]:
+        history_res = requests.get(f"{API_BASE}/entry/{manager['entry_id']}/history/").json()
+        points_history = [gw['total_points'] for gw in history_res['current']]
+        
+        trend_data["datasets"].append({
+            "label": manager['manager'],
+            "data": points_history,
+            "fill": False,
+            "tension": 0.1
+        })
+    
+    # 6. Compile Final JSON
+    final_data = {
+        "league_id": LEAGUE_ID,
+        "gameweek": current_gw,
+        "standings": processed_standings,
+        "gw_top_scorers": gw_top_scorers,
+        "trend_data": trend_data
+    }
+    
+    # Save to file for GitHub Pages to serve
+    os.makedirs("public", exist_ok=True)
+    with open("public/fpl_data.json", "w") as f:
+        json.dump(final_data, f)
 
-headers = {'User-Agent': 'Mozilla/5.0'}
-
-# 1. Fetch League Standings
-url = f"https://fantasy.premierleague.com/api/leagues-classic/{LEAGUE_ID}/standings/"
-response = requests.get(url, headers=headers)
-data = response.json() if response.status_code == 200 else exit(1)
-
-# 2. Fetch Gameweek Histories
-managers = data['standings']['results']
-for manager in managers:
-    hist_url = f"https://fantasy.premierleague.com/api/entry/{manager['entry']}/history/"
-    hist_resp = requests.get(hist_url, headers=headers)
-    if hist_resp.status_code == 200:
-        manager['gw_history'] = [gw['total_points'] for gw in hist_resp.json()['current']]
-    else:
-        manager['gw_history'] = []
-    time.sleep(0.5)
-
-# 3. NEW: Fetch Global FPL Players (Bootstrap)
-bootstrap_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
-boot_resp = requests.get(bootstrap_url, headers=headers)
-if boot_resp.status_code == 200:
-    boot_data = boot_resp.json()
-    players = boot_data['elements']
-    teams = {t['id']: t['short_name'] for t in boot_data['teams']}
-    positions = {p['id']: p['singular_name_short'] for p in boot_data['element_types']}
-
-    # Find highest scoring player for each position (1=GK, 2=DEF, 3=MID, 4=FWD)
-    top_players = {1: None, 2: None, 3: None, 4: None}
-    for p in players:
-        pos = p['element_type']
-        if top_players[pos] is None or p['total_points'] > top_players[pos]['total_points']:
-            top_players[pos] = p
-
-    formatted_top_players = []
-    for pos_id, p in top_players.items():
-        if p:
-            formatted_top_players.append({
-                'name': p['web_name'],
-                'position': positions[pos_id],
-                'team': teams[p['team']],
-                'points': p['total_points']
-            })
-    data['top_prem_players'] = formatted_top_players
-
-# 4. Save the Enriched Data
-data['last_updated'] = datetime.datetime.utcnow().isoformat()
-with open("data.json", "w") as f:
-    json.dump(data, f)
-print("Success! data.json updated with history and global stats.")
+if __name__ == "__main__":
+    get_fpl_data()
