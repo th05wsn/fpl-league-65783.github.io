@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Profile | FPL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">
+                <div class="header-titles">
+                    <span class="season-tag">2026/2027 SEASON</span>
+                    <h1 id="manager-title-header">Manager Summary</h1>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-btn">Standings</a>
+                <a href="fixtures.html" class="nav-btn">Fixtures & Form</a>
+                <a href="manager.html" class="nav-btn active">Manager Summaries</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <section class="table-section">
+            <div class="table-card" style="padding: 1.5rem;">
+                <label for="manager-select" style="font-weight:700; margin-right: 0.5rem;">Select Manager:</label>
+                <select id="manager-select" onchange="loadManagerProfile(this.value)" style="padding:0.5rem 1rem; border-radius:8px; font-family:'Outfit';">
+                    <option value="">-- Choose a Manager --</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="manager-details-container" class="table-section" style="display:none;">
+            <!-- Profile Card -->
+            <div class="table-card" style="padding:1.5rem; margin-bottom: 1.5rem;">
+                <h2 id="mgr-name" style="color:var(--fpl-purple);"></h2>
+                <p id="mgr-team" style="color:var(--text-muted); font-weight:600;"></p>
+                <div style="display:flex; gap:2rem; margin-top:1rem;">
+                    <div><strong>Rank:</strong> <span id="mgr-rank"></span></div>
+                    <div><strong>Total Points:</strong> <span id="mgr-total"></span></div>
+                    <div><strong>GW Points:</strong> <span id="mgr-gw"></span></div>
+                </div>
+            </div>
+
+            <!-- Chips Used -->
+            <div class="table-card" style="padding:1.5rem; margin-bottom: 1.5rem;">
+                <h3>Chips Used</h3>
+                <div id="mgr-chips" style="display:flex; gap:0.5rem; margin-top:0.5rem; flex-wrap:wrap;"></div>
+            </div>
+
+            <!-- Past History -->
+            <div class="table-card" style="padding:1.5rem;">
+                <h3>Past Season History</h3>
+                <table style="margin-top:0.5rem;">
+                    <thead>
+                        <tr>
+                            <th>Season</th>
+                            <th>Total Points</th>
+                            <th>Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody id="mgr-past-history"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

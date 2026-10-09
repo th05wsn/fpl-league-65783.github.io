@@ -22,6 +22,11 @@
                     <h1 id="league-name">Loading Dashboard...</h1>
                 </div>
             </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-btn active">Standings</a>
+                <a href="fixtures.html" class="nav-btn">Fixtures & Form</a>
+                <a href="manager.html" class="nav-btn">Manager Summaries</a>
+            </nav>
             <div class="update-status">
                 <span class="pulse-dot"></span> <span id="last-updated-text">Live Standings</span>
             </div>
@@ -29,17 +34,9 @@
     </header>
 
     <main class="dashboard">
-        <!-- Global FPL Top Players Widget -->
-        <section class="top-players-widget" id="top-players-container" style="display: none;">
-            <!-- Injected via JS -->
-        </section>
+        <section class="top-players-widget" id="top-players-container" style="display: none;"></section>
+        <section class="podium-section" id="podium-container" style="display: none;"></section>
 
-        <!-- Top 3 Podium -->
-        <section class="podium-section" id="podium-container" style="display: none;">
-            <!-- Injected via JS -->
-        </section>
-
-        <!-- Points Race Chart -->
         <section class="chart-section" id="chart-section">
             <div class="table-card" style="padding: 1.5rem;">
                 <div class="table-header" style="border: none; padding: 0 0 1rem 0;">
@@ -51,7 +48,6 @@
             </div>
         </section>
 
-        <!-- Full League Table -->
         <section class="table-section">
             <div class="table-card">
                 <div class="table-header">
@@ -70,9 +66,7 @@
                                 <th class="center-col">To 1st</th>
                             </tr>
                         </thead>
-                        <tbody id="league-table-body">
-                            <!-- Injected via JS -->
-                        </tbody>
+                        <tbody id="league-table-body"></tbody>
                     </table>
                 </div>
             </div>
@@ -81,5 +75,4 @@
 
     <script src="app.js"></script>
 </body>
-
 </html>
