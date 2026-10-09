@@ -230,23 +230,6 @@
       {
         "id": null,
         "rank": 14,
-        "last_rank": 14,
-        "entry": 5328351,
-        "entry_name": "Hotel? Thiago",
-        "player_name": "James Sinfield",
-        "event_total": 54,
-        "total": 325,
-        "gw_history": [
-          52,
-          145,
-          204,
-          271,
-          325
-        ]
-      },
-      {
-        "id": null,
-        "rank": 14,
         "last_rank": 19,
         "entry": 2704184,
         "entry_name": "Benchwarmers",
@@ -258,6 +241,23 @@
           116,
           178,
           258,
+          325
+        ]
+      },
+      {
+        "id": null,
+        "rank": 14,
+        "last_rank": 14,
+        "entry": 5328351,
+        "entry_name": "Hotel? Thiago",
+        "player_name": "James Sinfield",
+        "event_total": 54,
+        "total": 325,
+        "gw_history": [
+          52,
+          145,
+          204,
+          271,
           325
         ]
       },
@@ -2384,130 +2384,6 @@
         }
       ]
     },
-    "5328351": {
-      "entry_id": 5328351,
-      "entry_name": "Hotel? Thiago",
-      "player_name": "James Sinfield",
-      "overall_rank": 14,
-      "total_points": 325,
-      "gw_points": 54,
-      "past_seasons": [
-        {
-          "season_name": "2019/20",
-          "total_points": 1669,
-          "rank": 5546006,
-          "rank_percentage": "73"
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2351,
-          "rank": 1036180,
-          "rank_percentage": "9"
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2303,
-          "rank": 1014212,
-          "rank_percentage": "9"
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2449,
-          "rank": 297566,
-          "rank_percentage": "3"
-        },
-        {
-          "season_name": "2025/26",
-          "total_points": 2201,
-          "rank": 887669,
-          "rank_percentage": "7"
-        }
-      ],
-      "chips_used": [
-        {
-          "name": "3xc",
-          "time": "2026-09-18T16:46:02.270393Z",
-          "event": 5
-        }
-      ],
-      "history": [
-        {
-          "event": 1,
-          "points": 52,
-          "total_points": 52,
-          "rank": 3770915,
-          "rank_sort": 3957333,
-          "overall_rank": 3770910,
-          "percentile_rank": 45,
-          "overall_rank_percentage": "42",
-          "bank": 10,
-          "value": 1000,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 15
-        },
-        {
-          "event": 2,
-          "points": 93,
-          "total_points": 145,
-          "rank": 2578047,
-          "rank_sort": 2623761,
-          "overall_rank": 2562053,
-          "percentile_rank": 30,
-          "overall_rank_percentage": "26",
-          "bank": 10,
-          "value": 1002,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 14
-        },
-        {
-          "event": 3,
-          "points": 59,
-          "total_points": 204,
-          "rank": 2581540,
-          "rank_sort": 2623893,
-          "overall_rank": 1885177,
-          "percentile_rank": 25,
-          "overall_rank_percentage": "18",
-          "bank": 18,
-          "value": 1004,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 15
-        },
-        {
-          "event": 4,
-          "points": 67,
-          "total_points": 271,
-          "rank": 6073212,
-          "rank_sort": 6092374,
-          "overall_rank": 2713147,
-          "percentile_rank": 60,
-          "overall_rank_percentage": "25",
-          "bank": 22,
-          "value": 1003,
-          "event_transfers": 2,
-          "event_transfers_cost": 0,
-          "points_on_bench": 19
-        },
-        {
-          "event": 5,
-          "points": 54,
-          "total_points": 325,
-          "rank": 3220250,
-          "rank_sort": 3265209,
-          "overall_rank": 2274730,
-          "percentile_rank": 30,
-          "overall_rank_percentage": "21",
-          "bank": 21,
-          "value": 1005,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 12
-        }
-      ]
-    },
     "2704184": {
       "entry_id": 2704184,
       "entry_name": "Benchwarmers",
@@ -2665,6 +2541,130 @@
           "event_transfers": 1,
           "event_transfers_cost": 0,
           "points_on_bench": 4
+        }
+      ]
+    },
+    "5328351": {
+      "entry_id": 5328351,
+      "entry_name": "Hotel? Thiago",
+      "player_name": "James Sinfield",
+      "overall_rank": 14,
+      "total_points": 325,
+      "gw_points": 54,
+      "past_seasons": [
+        {
+          "season_name": "2019/20",
+          "total_points": 1669,
+          "rank": 5546006,
+          "rank_percentage": "73"
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2351,
+          "rank": 1036180,
+          "rank_percentage": "9"
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2303,
+          "rank": 1014212,
+          "rank_percentage": "9"
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2449,
+          "rank": 297566,
+          "rank_percentage": "3"
+        },
+        {
+          "season_name": "2025/26",
+          "total_points": 2201,
+          "rank": 887669,
+          "rank_percentage": "7"
+        }
+      ],
+      "chips_used": [
+        {
+          "name": "3xc",
+          "time": "2026-09-18T16:46:02.270393Z",
+          "event": 5
+        }
+      ],
+      "history": [
+        {
+          "event": 1,
+          "points": 52,
+          "total_points": 52,
+          "rank": 3770915,
+          "rank_sort": 3957333,
+          "overall_rank": 3770910,
+          "percentile_rank": 45,
+          "overall_rank_percentage": "42",
+          "bank": 10,
+          "value": 1000,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 15
+        },
+        {
+          "event": 2,
+          "points": 93,
+          "total_points": 145,
+          "rank": 2578047,
+          "rank_sort": 2623761,
+          "overall_rank": 2562053,
+          "percentile_rank": 30,
+          "overall_rank_percentage": "26",
+          "bank": 10,
+          "value": 1002,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 14
+        },
+        {
+          "event": 3,
+          "points": 59,
+          "total_points": 204,
+          "rank": 2581540,
+          "rank_sort": 2623893,
+          "overall_rank": 1885177,
+          "percentile_rank": 25,
+          "overall_rank_percentage": "18",
+          "bank": 18,
+          "value": 1004,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 15
+        },
+        {
+          "event": 4,
+          "points": 67,
+          "total_points": 271,
+          "rank": 6073212,
+          "rank_sort": 6092374,
+          "overall_rank": 2713147,
+          "percentile_rank": 60,
+          "overall_rank_percentage": "25",
+          "bank": 22,
+          "value": 1003,
+          "event_transfers": 2,
+          "event_transfers_cost": 0,
+          "points_on_bench": 19
+        },
+        {
+          "event": 5,
+          "points": 54,
+          "total_points": 325,
+          "rank": 3220250,
+          "rank_sort": 3265209,
+          "overall_rank": 2274730,
+          "percentile_rank": 30,
+          "overall_rank_percentage": "21",
+          "bank": 21,
+          "value": 1005,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 12
         }
       ]
     },
@@ -4314,5 +4314,5 @@
       ]
     }
   },
-  "last_updated": "2026-10-09T16:02:45.835446+00:00"
+  "last_updated": "2026-10-09T19:54:02.951259+00:00"
 }
