@@ -13,8 +13,8 @@
         "entry": 2578761,
         "entry_name": "Stachs of Gold",
         "player_name": "James Perfect",
-        "event_total": 40,
-        "total": 572,
+        "event_total": 39,
+        "total": 571,
         "gw_history": [
           77,
           184,
@@ -33,8 +33,8 @@
         "entry": 197144,
         "entry_name": "Awoniyi Be Adored",
         "player_name": "Jack Howkins",
-        "event_total": 41,
-        "total": 554,
+        "event_total": 40,
+        "total": 553,
         "gw_history": [
           69,
           183,
@@ -73,8 +73,8 @@
         "entry": 2540304,
         "entry_name": "Maine Road Legends",
         "player_name": "Jon Hives",
-        "event_total": 33,
-        "total": 551,
+        "event_total": 32,
+        "total": 550,
         "gw_history": [
           40,
           175,
@@ -113,8 +113,8 @@
         "entry": 322147,
         "entry_name": "McGinn & Tonic",
         "player_name": "Ryan Critchley",
-        "event_total": 43,
-        "total": 525,
+        "event_total": 42,
+        "total": 524,
         "gw_history": [
           69,
           175,
@@ -133,8 +133,8 @@
         "entry": 4099534,
         "entry_name": "Saving Private Raya",
         "player_name": "Curtis Melling",
-        "event_total": 37,
-        "total": 513,
+        "event_total": 36,
+        "total": 512,
         "gw_history": [
           56,
           149,
@@ -153,8 +153,8 @@
         "entry": 3182697,
         "entry_name": "Hoquenhiem",
         "player_name": "Lawrence Hoque",
-        "event_total": 27,
-        "total": 503,
+        "event_total": 26,
+        "total": 502,
         "gw_history": [
           73,
           154,
@@ -193,8 +193,8 @@
         "entry": 536521,
         "entry_name": "Burtoon Toon",
         "player_name": "Dave Burton",
-        "event_total": 33,
-        "total": 491,
+        "event_total": 32,
+        "total": 490,
         "gw_history": [
           49,
           123,
@@ -213,8 +213,8 @@
         "entry": 1970466,
         "entry_name": "The Rolling People",
         "player_name": "Oliver Sherwood",
-        "event_total": 38,
-        "total": 489,
+        "event_total": 37,
+        "total": 488,
         "gw_history": [
           54,
           134,
@@ -233,8 +233,8 @@
         "entry": 1894739,
         "entry_name": "meh",
         "player_name": "Simon Molinero",
-        "event_total": 26,
-        "total": 484,
+        "event_total": 25,
+        "total": 483,
         "gw_history": [
           66,
           146,
@@ -253,8 +253,8 @@
         "entry": 4279819,
         "entry_name": "Mixed Bag",
         "player_name": "Andy Trotter",
-        "event_total": 40,
-        "total": 481,
+        "event_total": 41,
+        "total": 482,
         "gw_history": [
           55,
           160,
@@ -269,6 +269,26 @@
       {
         "id": null,
         "rank": 14,
+        "last_rank": 20,
+        "entry": 1817727,
+        "entry_name": "COYS",
+        "player_name": "Ben Crosfield",
+        "event_total": 41,
+        "total": 480,
+        "gw_history": [
+          37,
+          113,
+          177,
+          236,
+          295,
+          349,
+          439,
+          479
+        ]
+      },
+      {
+        "id": null,
+        "rank": 15,
         "last_rank": 15,
         "entry": 2704184,
         "entry_name": "Benchwarmers",
@@ -288,33 +308,13 @@
       },
       {
         "id": null,
-        "rank": 15,
-        "last_rank": 20,
-        "entry": 1817727,
-        "entry_name": "COYS",
-        "player_name": "Ben Crosfield",
-        "event_total": 40,
-        "total": 479,
-        "gw_history": [
-          37,
-          113,
-          177,
-          236,
-          295,
-          349,
-          439,
-          479
-        ]
-      },
-      {
-        "id": null,
         "rank": 16,
         "last_rank": 14,
         "entry": 4577825,
         "entry_name": "Saka Spuds",
         "player_name": "Neil Brennan",
-        "event_total": 17,
-        "total": 472,
+        "event_total": 18,
+        "total": 473,
         "gw_history": [
           72,
           159,
@@ -333,8 +333,8 @@
         "entry": 7647475,
         "entry_name": "FCGP",
         "player_name": "Gareth Prince",
-        "event_total": 54,
-        "total": 469,
+        "event_total": 53,
+        "total": 468,
         "gw_history": [
           32,
           112,
@@ -393,8 +393,8 @@
         "entry": 7236344,
         "entry_name": "Goals pay the Rent",
         "player_name": "Lee Metcalfe",
-        "event_total": 43,
-        "total": 463,
+        "event_total": 42,
+        "total": 462,
         "gw_history": [
           43,
           111,
@@ -493,8 +493,8 @@
         "entry": 3210958,
         "entry_name": "Make The Wirtz Decis",
         "player_name": "James Sutton",
-        "event_total": 30,
-        "total": 441,
+        "event_total": 31,
+        "total": 442,
         "gw_history": [
           46,
           115,
@@ -553,8 +553,8 @@
         "entry": 8447798,
         "entry_name": "Konartist United",
         "player_name": "Konark Jain",
-        "event_total": 23,
-        "total": 422,
+        "event_total": 24,
+        "total": 423,
         "gw_history": [
           73,
           151,
@@ -593,13 +593,13 @@
       "name": "Gabriel",
       "position": "DEF",
       "team": "ARS",
-      "points": 16
+      "points": 17
     },
     {
       "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "points": 15
+      "points": 14
     },
     {
       "name": "N.Jackson",
@@ -742,8 +742,8 @@
       "entry_name": "Stachs of Gold",
       "player_name": "James Perfect",
       "overall_rank": 1,
-      "total_points": 572,
-      "gw_points": 40,
+      "total_points": 571,
+      "gw_points": 39,
       "past_seasons": [
         {
           "season_name": "2011/12",
@@ -964,8 +964,8 @@
       "entry_name": "Awoniyi Be Adored",
       "player_name": "Jack Howkins",
       "overall_rank": 2,
-      "total_points": 554,
-      "gw_points": 41,
+      "total_points": 553,
+      "gw_points": 40,
       "past_seasons": [
         {
           "season_name": "2020/21",
@@ -1398,8 +1398,8 @@
       "entry_name": "Maine Road Legends",
       "player_name": "Jon Hives",
       "overall_rank": 4,
-      "total_points": 551,
-      "gw_points": 33,
+      "total_points": 550,
+      "gw_points": 32,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -1717,8 +1717,8 @@
       "entry_name": "McGinn & Tonic",
       "player_name": "Ryan Critchley",
       "overall_rank": 6,
-      "total_points": 525,
-      "gw_points": 43,
+      "total_points": 524,
+      "gw_points": 42,
       "past_seasons": [
         {
           "season_name": "2019/20",
@@ -1886,8 +1886,8 @@
       "entry_name": "Saving Private Raya",
       "player_name": "Curtis Melling",
       "overall_rank": 7,
-      "total_points": 513,
-      "gw_points": 37,
+      "total_points": 512,
+      "gw_points": 36,
       "past_seasons": [
         {
           "season_name": "2022/23",
@@ -2043,8 +2043,8 @@
       "entry_name": "Hoquenhiem",
       "player_name": "Lawrence Hoque",
       "overall_rank": 8,
-      "total_points": 503,
-      "gw_points": 27,
+      "total_points": 502,
+      "gw_points": 26,
       "past_seasons": [
         {
           "season_name": "2020/21",
@@ -2368,8 +2368,8 @@
       "entry_name": "Burtoon Toon",
       "player_name": "Dave Burton",
       "overall_rank": 10,
-      "total_points": 491,
-      "gw_points": 33,
+      "total_points": 490,
+      "gw_points": 32,
       "past_seasons": [
         {
           "season_name": "2019/20",
@@ -2554,8 +2554,8 @@
       "entry_name": "The Rolling People",
       "player_name": "Oliver Sherwood",
       "overall_rank": 11,
-      "total_points": 489,
-      "gw_points": 38,
+      "total_points": 488,
+      "gw_points": 37,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -2721,8 +2721,8 @@
       "entry_name": "meh",
       "player_name": "Simon Molinero",
       "overall_rank": 12,
-      "total_points": 484,
-      "gw_points": 26,
+      "total_points": 483,
+      "gw_points": 25,
       "past_seasons": [
         {
           "season_name": "2007/08",
@@ -2961,8 +2961,8 @@
       "entry_name": "Mixed Bag",
       "player_name": "Andy Trotter",
       "overall_rank": 13,
-      "total_points": 481,
-      "gw_points": 40,
+      "total_points": 482,
+      "gw_points": 41,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -3107,11 +3107,184 @@
         }
       ]
     },
+    "1817727": {
+      "entry_id": 1817727,
+      "entry_name": "COYS",
+      "player_name": "Ben Crosfield",
+      "overall_rank": 14,
+      "total_points": 480,
+      "gw_points": 41,
+      "past_seasons": [
+        {
+          "season_name": "2022/23",
+          "total_points": 2313,
+          "rank": 1391607,
+          "rank_percentage": "12"
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2065,
+          "rank": 3984200,
+          "rank_percentage": "37"
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 1952,
+          "rank": 6003141,
+          "rank_percentage": "52"
+        },
+        {
+          "season_name": "2025/26",
+          "total_points": 1953,
+          "rank": 4919240,
+          "rank_percentage": "38"
+        }
+      ],
+      "chips_used": [
+        {
+          "name": "3xc",
+          "time": "2026-08-19T08:49:10.949728Z",
+          "event": 1
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-09-13T08:35:31.594960Z",
+          "event": 5
+        },
+        {
+          "name": "bboost",
+          "time": "2026-10-14T09:11:14.623776Z",
+          "event": 7
+        }
+      ],
+      "history": [
+        {
+          "event": 1,
+          "points": 37,
+          "total_points": 37,
+          "rank": 7658243,
+          "rank_sort": 7684973,
+          "overall_rank": 7658231,
+          "percentile_rank": 90,
+          "overall_rank_percentage": "86",
+          "bank": 0,
+          "value": 1000,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 11
+        },
+        {
+          "event": 2,
+          "points": 76,
+          "total_points": 113,
+          "rank": 5887030,
+          "rank_sort": 5899253,
+          "overall_rank": 6870709,
+          "percentile_rank": 60,
+          "overall_rank_percentage": "69",
+          "bank": 10,
+          "value": 1000,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 5
+        },
+        {
+          "event": 3,
+          "points": 64,
+          "total_points": 177,
+          "rank": 1347965,
+          "rank_sort": 1357958,
+          "overall_rank": 5267498,
+          "percentile_rank": 15,
+          "overall_rank_percentage": "51",
+          "bank": 3,
+          "value": 1000,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 18
+        },
+        {
+          "event": 4,
+          "points": 59,
+          "total_points": 236,
+          "rank": 8053373,
+          "rank_sort": 8061448,
+          "overall_rank": 6016195,
+          "percentile_rank": 80,
+          "overall_rank_percentage": "56",
+          "bank": 3,
+          "value": 999,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 16
+        },
+        {
+          "event": 5,
+          "points": 59,
+          "total_points": 295,
+          "rank": 1777775,
+          "rank_sort": 1792551,
+          "overall_rank": 4937250,
+          "percentile_rank": 20,
+          "overall_rank_percentage": "46",
+          "bank": 0,
+          "value": 999,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 18
+        },
+        {
+          "event": 6,
+          "points": 54,
+          "total_points": 349,
+          "rank": 6652922,
+          "rank_sort": 6675573,
+          "overall_rank": 5225079,
+          "percentile_rank": 65,
+          "overall_rank_percentage": "48",
+          "bank": 0,
+          "value": 1007,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 13
+        },
+        {
+          "event": 7,
+          "points": 90,
+          "total_points": 439,
+          "rank": 86593,
+          "rank_sort": 88919,
+          "overall_rank": 3168399,
+          "percentile_rank": 1,
+          "overall_rank_percentage": "29",
+          "bank": 4,
+          "value": 1012,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 8,
+          "points": 40,
+          "total_points": 479,
+          "rank": 1613364,
+          "rank_sort": 1627180,
+          "overall_rank": 2536654,
+          "percentile_rank": 15,
+          "overall_rank_percentage": "23",
+          "bank": 19,
+          "value": 1013,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 2
+        }
+      ]
+    },
     "2704184": {
       "entry_id": 2704184,
       "entry_name": "Benchwarmers",
       "player_name": "Michael Baillie",
-      "overall_rank": 14,
+      "overall_rank": 15,
       "total_points": 480,
       "gw_points": 29,
       "past_seasons": [
@@ -3318,186 +3491,13 @@
         }
       ]
     },
-    "1817727": {
-      "entry_id": 1817727,
-      "entry_name": "COYS",
-      "player_name": "Ben Crosfield",
-      "overall_rank": 15,
-      "total_points": 479,
-      "gw_points": 40,
-      "past_seasons": [
-        {
-          "season_name": "2022/23",
-          "total_points": 2313,
-          "rank": 1391607,
-          "rank_percentage": "12"
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2065,
-          "rank": 3984200,
-          "rank_percentage": "37"
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 1952,
-          "rank": 6003141,
-          "rank_percentage": "52"
-        },
-        {
-          "season_name": "2025/26",
-          "total_points": 1953,
-          "rank": 4919240,
-          "rank_percentage": "38"
-        }
-      ],
-      "chips_used": [
-        {
-          "name": "3xc",
-          "time": "2026-08-19T08:49:10.949728Z",
-          "event": 1
-        },
-        {
-          "name": "wildcard",
-          "time": "2026-09-13T08:35:31.594960Z",
-          "event": 5
-        },
-        {
-          "name": "bboost",
-          "time": "2026-10-14T09:11:14.623776Z",
-          "event": 7
-        }
-      ],
-      "history": [
-        {
-          "event": 1,
-          "points": 37,
-          "total_points": 37,
-          "rank": 7658243,
-          "rank_sort": 7684973,
-          "overall_rank": 7658231,
-          "percentile_rank": 90,
-          "overall_rank_percentage": "86",
-          "bank": 0,
-          "value": 1000,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 11
-        },
-        {
-          "event": 2,
-          "points": 76,
-          "total_points": 113,
-          "rank": 5887030,
-          "rank_sort": 5899253,
-          "overall_rank": 6870709,
-          "percentile_rank": 60,
-          "overall_rank_percentage": "69",
-          "bank": 10,
-          "value": 1000,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 5
-        },
-        {
-          "event": 3,
-          "points": 64,
-          "total_points": 177,
-          "rank": 1347965,
-          "rank_sort": 1357958,
-          "overall_rank": 5267498,
-          "percentile_rank": 15,
-          "overall_rank_percentage": "51",
-          "bank": 3,
-          "value": 1000,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 18
-        },
-        {
-          "event": 4,
-          "points": 59,
-          "total_points": 236,
-          "rank": 8053373,
-          "rank_sort": 8061448,
-          "overall_rank": 6016195,
-          "percentile_rank": 80,
-          "overall_rank_percentage": "56",
-          "bank": 3,
-          "value": 999,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 16
-        },
-        {
-          "event": 5,
-          "points": 59,
-          "total_points": 295,
-          "rank": 1777775,
-          "rank_sort": 1792551,
-          "overall_rank": 4937250,
-          "percentile_rank": 20,
-          "overall_rank_percentage": "46",
-          "bank": 0,
-          "value": 999,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 18
-        },
-        {
-          "event": 6,
-          "points": 54,
-          "total_points": 349,
-          "rank": 6652922,
-          "rank_sort": 6675573,
-          "overall_rank": 5225079,
-          "percentile_rank": 65,
-          "overall_rank_percentage": "48",
-          "bank": 0,
-          "value": 1007,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 13
-        },
-        {
-          "event": 7,
-          "points": 90,
-          "total_points": 439,
-          "rank": 86593,
-          "rank_sort": 88919,
-          "overall_rank": 3168399,
-          "percentile_rank": 1,
-          "overall_rank_percentage": "29",
-          "bank": 4,
-          "value": 1012,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 0
-        },
-        {
-          "event": 8,
-          "points": 40,
-          "total_points": 479,
-          "rank": 1613364,
-          "rank_sort": 1627180,
-          "overall_rank": 2536654,
-          "percentile_rank": 15,
-          "overall_rank_percentage": "23",
-          "bank": 19,
-          "value": 1013,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 2
-        }
-      ]
-    },
     "4577825": {
       "entry_id": 4577825,
       "entry_name": "Saka Spuds",
       "player_name": "Neil Brennan",
       "overall_rank": 16,
-      "total_points": 472,
-      "gw_points": 17,
+      "total_points": 473,
+      "gw_points": 18,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -3647,8 +3647,8 @@
       "entry_name": "FCGP",
       "player_name": "Gareth Prince",
       "overall_rank": 17,
-      "total_points": 469,
-      "gw_points": 54,
+      "total_points": 468,
+      "gw_points": 53,
       "past_seasons": [
         {
           "season_name": "2024/25",
@@ -4128,8 +4128,8 @@
       "entry_name": "Goals pay the Rent",
       "player_name": "Lee Metcalfe",
       "overall_rank": 20,
-      "total_points": 463,
-      "gw_points": 43,
+      "total_points": 462,
+      "gw_points": 42,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -4916,8 +4916,8 @@
       "entry_name": "Make The Wirtz Decis",
       "player_name": "James Sutton",
       "overall_rank": 25,
-      "total_points": 441,
-      "gw_points": 30,
+      "total_points": 442,
+      "gw_points": 31,
       "past_seasons": [
         {
           "season_name": "2018/19",
@@ -5459,8 +5459,8 @@
       "entry_name": "Konartist United",
       "player_name": "Konark Jain",
       "overall_rank": 28,
-      "total_points": 422,
-      "gw_points": 23,
+      "total_points": 423,
+      "gw_points": 24,
       "past_seasons": [
         {
           "season_name": "2025/26",
@@ -5769,5 +5769,5 @@
       ]
     }
   },
-  "last_updated": "2026-10-24T22:22:21.950878+00:00"
+  "last_updated": "2026-10-25T00:40:58.119993+00:00"
 }
