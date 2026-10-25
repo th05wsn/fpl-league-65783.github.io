@@ -149,26 +149,6 @@
       {
         "id": null,
         "rank": 8,
-        "last_rank": 12,
-        "entry": 1970466,
-        "entry_name": "The Rolling People",
-        "player_name": "Oliver Sherwood",
-        "event_total": 71,
-        "total": 522,
-        "gw_history": [
-          54,
-          134,
-          209,
-          268,
-          324,
-          397,
-          455,
-          489
-        ]
-      },
-      {
-        "id": null,
-        "rank": 9,
         "last_rank": 7,
         "entry": 4099534,
         "entry_name": "Saving Private Raya",
@@ -188,13 +168,33 @@
       },
       {
         "id": null,
+        "rank": 9,
+        "last_rank": 12,
+        "entry": 1970466,
+        "entry_name": "The Rolling People",
+        "player_name": "Oliver Sherwood",
+        "event_total": 68,
+        "total": 519,
+        "gw_history": [
+          54,
+          134,
+          209,
+          268,
+          324,
+          397,
+          455,
+          489
+        ]
+      },
+      {
+        "id": null,
         "rank": 10,
         "last_rank": 8,
         "entry": 3182697,
         "entry_name": "Hoquenhiem",
         "player_name": "Lawrence Hoque",
-        "event_total": 35,
-        "total": 511,
+        "event_total": 38,
+        "total": 514,
         "gw_history": [
           73,
           154,
@@ -233,8 +233,8 @@
         "entry": 1817727,
         "entry_name": "COYS",
         "player_name": "Ben Crosfield",
-        "event_total": 66,
-        "total": 505,
+        "event_total": 63,
+        "total": 502,
         "gw_history": [
           37,
           113,
@@ -249,26 +249,6 @@
       {
         "id": null,
         "rank": 13,
-        "last_rank": 17,
-        "entry": 4141690,
-        "entry_name": "tanaka chance on me",
-        "player_name": "Theo Wilson",
-        "event_total": 51,
-        "total": 497,
-        "gw_history": [
-          59,
-          154,
-          204,
-          291,
-          341,
-          390,
-          446,
-          467
-        ]
-      },
-      {
-        "id": null,
-        "rank": 14,
         "last_rank": 15,
         "entry": 2704184,
         "entry_name": "Benchwarmers",
@@ -288,7 +268,27 @@
       },
       {
         "id": null,
-        "rank": 15,
+        "rank": 14,
+        "last_rank": 12,
+        "entry": 5328351,
+        "entry_name": "Hotel? Thiago",
+        "player_name": "James Sinfield",
+        "event_total": 40,
+        "total": 495,
+        "gw_history": [
+          52,
+          145,
+          204,
+          271,
+          325,
+          402,
+          455,
+          466
+        ]
+      },
+      {
+        "id": null,
+        "rank": 14,
         "last_rank": 11,
         "entry": 536521,
         "entry_name": "Burtoon Toon",
@@ -309,21 +309,21 @@
       {
         "id": null,
         "rank": 16,
-        "last_rank": 12,
-        "entry": 5328351,
-        "entry_name": "Hotel? Thiago",
-        "player_name": "James Sinfield",
-        "event_total": 37,
-        "total": 492,
+        "last_rank": 17,
+        "entry": 4141690,
+        "entry_name": "tanaka chance on me",
+        "player_name": "Theo Wilson",
+        "event_total": 48,
+        "total": 494,
         "gw_history": [
-          52,
-          145,
+          59,
+          154,
           204,
-          271,
-          325,
-          402,
-          455,
-          466
+          291,
+          341,
+          390,
+          446,
+          467
         ]
       },
       {
@@ -393,8 +393,8 @@
         "entry": 7647475,
         "entry_name": "FCGP",
         "player_name": "Gareth Prince",
-        "event_total": 59,
-        "total": 474,
+        "event_total": 62,
+        "total": 477,
         "gw_history": [
           32,
           112,
@@ -413,8 +413,8 @@
         "entry": 7323730,
         "entry_name": "AC Cabbage",
         "player_name": "Mark Astle",
-        "event_total": 30,
-        "total": 471,
+        "event_total": 27,
+        "total": 468,
         "gw_history": [
           73,
           155,
@@ -513,8 +513,8 @@
         "entry": 1318685,
         "entry_name": "Shirley Pensioners",
         "player_name": "Tony Shirley",
-        "event_total": 52,
-        "total": 455,
+        "event_total": 49,
+        "total": 452,
         "gw_history": [
           51,
           134,
@@ -573,8 +573,8 @@
         "entry": 2968459,
         "entry_name": "Stach'd XI",
         "player_name": "Sam Hammond",
-        "event_total": 24,
-        "total": 399,
+        "event_total": 25,
+        "total": 400,
         "gw_history": [
           51,
           119,
@@ -2121,13 +2121,170 @@
         }
       ]
     },
+    "4099534": {
+      "entry_id": 4099534,
+      "entry_name": "Saving Private Raya",
+      "player_name": "Curtis Melling",
+      "overall_rank": 8,
+      "total_points": 521,
+      "gw_points": 45,
+      "past_seasons": [
+        {
+          "season_name": "2022/23",
+          "total_points": 1899,
+          "rank": 6454813,
+          "rank_percentage": "57"
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 1779,
+          "rank": 7714412,
+          "rank_percentage": "68"
+        },
+        {
+          "season_name": "2025/26",
+          "total_points": 2291,
+          "rank": 220689,
+          "rank_percentage": "2"
+        }
+      ],
+      "chips_used": [
+        {
+          "name": "wildcard",
+          "time": "2026-09-04T17:19:51.023865Z",
+          "event": 3
+        }
+      ],
+      "history": [
+        {
+          "event": 1,
+          "points": 56,
+          "total_points": 56,
+          "rank": 2677595,
+          "rank_sort": 2795704,
+          "overall_rank": 2677591,
+          "percentile_rank": 35,
+          "overall_rank_percentage": "30",
+          "bank": 0,
+          "value": 1000,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 4
+        },
+        {
+          "event": 2,
+          "points": 93,
+          "total_points": 149,
+          "rank": 2578047,
+          "rank_sort": 2613556,
+          "overall_rank": 2090418,
+          "percentile_rank": 30,
+          "overall_rank_percentage": "21",
+          "bank": 0,
+          "value": 1002,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 10
+        },
+        {
+          "event": 3,
+          "points": 54,
+          "total_points": 203,
+          "rank": 4127256,
+          "rank_sort": 4189979,
+          "overall_rank": 1961668,
+          "percentile_rank": 40,
+          "overall_rank_percentage": "19",
+          "bank": 6,
+          "value": 1003,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 12
+        },
+        {
+          "event": 4,
+          "points": 91,
+          "total_points": 294,
+          "rank": 781384,
+          "rank_sort": 795433,
+          "overall_rank": 1011490,
+          "percentile_rank": 10,
+          "overall_rank_percentage": "10",
+          "bank": 16,
+          "value": 1008,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 7
+        },
+        {
+          "event": 5,
+          "points": 41,
+          "total_points": 335,
+          "rank": 7673515,
+          "rank_sort": 7734378,
+          "overall_rank": 1520119,
+          "percentile_rank": 75,
+          "overall_rank_percentage": "14",
+          "bank": 16,
+          "value": 1014,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 12
+        },
+        {
+          "event": 6,
+          "points": 87,
+          "total_points": 422,
+          "rank": 168450,
+          "rank_sort": 176012,
+          "overall_rank": 603560,
+          "percentile_rank": 5,
+          "overall_rank_percentage": "6",
+          "bank": 16,
+          "value": 1016,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 5
+        },
+        {
+          "event": 7,
+          "points": 54,
+          "total_points": 476,
+          "rank": 7272503,
+          "rank_sort": 7321309,
+          "overall_rank": 1150945,
+          "percentile_rank": 70,
+          "overall_rank_percentage": "10",
+          "bank": 16,
+          "value": 1020,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 16
+        },
+        {
+          "event": 8,
+          "points": 37,
+          "total_points": 513,
+          "rank": 2224334,
+          "rank_sort": 2246628,
+          "overall_rank": 921591,
+          "percentile_rank": 25,
+          "overall_rank_percentage": "8",
+          "bank": 4,
+          "value": 1024,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ]
+    },
     "1970466": {
       "entry_id": 1970466,
       "entry_name": "The Rolling People",
       "player_name": "Oliver Sherwood",
-      "overall_rank": 8,
-      "total_points": 522,
-      "gw_points": 71,
+      "overall_rank": 9,
+      "total_points": 519,
+      "gw_points": 68,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -2288,170 +2445,13 @@
         }
       ]
     },
-    "4099534": {
-      "entry_id": 4099534,
-      "entry_name": "Saving Private Raya",
-      "player_name": "Curtis Melling",
-      "overall_rank": 9,
-      "total_points": 521,
-      "gw_points": 45,
-      "past_seasons": [
-        {
-          "season_name": "2022/23",
-          "total_points": 1899,
-          "rank": 6454813,
-          "rank_percentage": "57"
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 1779,
-          "rank": 7714412,
-          "rank_percentage": "68"
-        },
-        {
-          "season_name": "2025/26",
-          "total_points": 2291,
-          "rank": 220689,
-          "rank_percentage": "2"
-        }
-      ],
-      "chips_used": [
-        {
-          "name": "wildcard",
-          "time": "2026-09-04T17:19:51.023865Z",
-          "event": 3
-        }
-      ],
-      "history": [
-        {
-          "event": 1,
-          "points": 56,
-          "total_points": 56,
-          "rank": 2677595,
-          "rank_sort": 2795704,
-          "overall_rank": 2677591,
-          "percentile_rank": 35,
-          "overall_rank_percentage": "30",
-          "bank": 0,
-          "value": 1000,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 4
-        },
-        {
-          "event": 2,
-          "points": 93,
-          "total_points": 149,
-          "rank": 2578047,
-          "rank_sort": 2613556,
-          "overall_rank": 2090418,
-          "percentile_rank": 30,
-          "overall_rank_percentage": "21",
-          "bank": 0,
-          "value": 1002,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 10
-        },
-        {
-          "event": 3,
-          "points": 54,
-          "total_points": 203,
-          "rank": 4127256,
-          "rank_sort": 4189979,
-          "overall_rank": 1961668,
-          "percentile_rank": 40,
-          "overall_rank_percentage": "19",
-          "bank": 6,
-          "value": 1003,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 12
-        },
-        {
-          "event": 4,
-          "points": 91,
-          "total_points": 294,
-          "rank": 781384,
-          "rank_sort": 795433,
-          "overall_rank": 1011490,
-          "percentile_rank": 10,
-          "overall_rank_percentage": "10",
-          "bank": 16,
-          "value": 1008,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 7
-        },
-        {
-          "event": 5,
-          "points": 41,
-          "total_points": 335,
-          "rank": 7673515,
-          "rank_sort": 7734378,
-          "overall_rank": 1520119,
-          "percentile_rank": 75,
-          "overall_rank_percentage": "14",
-          "bank": 16,
-          "value": 1014,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 12
-        },
-        {
-          "event": 6,
-          "points": 87,
-          "total_points": 422,
-          "rank": 168450,
-          "rank_sort": 176012,
-          "overall_rank": 603560,
-          "percentile_rank": 5,
-          "overall_rank_percentage": "6",
-          "bank": 16,
-          "value": 1016,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 5
-        },
-        {
-          "event": 7,
-          "points": 54,
-          "total_points": 476,
-          "rank": 7272503,
-          "rank_sort": 7321309,
-          "overall_rank": 1150945,
-          "percentile_rank": 70,
-          "overall_rank_percentage": "10",
-          "bank": 16,
-          "value": 1020,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 16
-        },
-        {
-          "event": 8,
-          "points": 37,
-          "total_points": 513,
-          "rank": 2224334,
-          "rank_sort": 2246628,
-          "overall_rank": 921591,
-          "percentile_rank": 25,
-          "overall_rank_percentage": "8",
-          "bank": 4,
-          "value": 1024,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 0
-        }
-      ]
-    },
     "3182697": {
       "entry_id": 3182697,
       "entry_name": "Hoquenhiem",
       "player_name": "Lawrence Hoque",
       "overall_rank": 10,
-      "total_points": 511,
-      "gw_points": 35,
+      "total_points": 514,
+      "gw_points": 38,
       "past_seasons": [
         {
           "season_name": "2020/21",
@@ -2775,8 +2775,8 @@
       "entry_name": "COYS",
       "player_name": "Ben Crosfield",
       "overall_rank": 12,
-      "total_points": 505,
-      "gw_points": 66,
+      "total_points": 502,
+      "gw_points": 63,
       "past_seasons": [
         {
           "season_name": "2022/23",
@@ -2943,162 +2943,11 @@
         }
       ]
     },
-    "4141690": {
-      "entry_id": 4141690,
-      "entry_name": "tanaka chance on me",
-      "player_name": "Theo Wilson",
-      "overall_rank": 13,
-      "total_points": 497,
-      "gw_points": 51,
-      "past_seasons": [
-        {
-          "season_name": "2019/20",
-          "total_points": 724,
-          "rank": 7322764,
-          "rank_percentage": "96"
-        },
-        {
-          "season_name": "2022/23",
-          "total_points": 2007,
-          "rank": 5157346,
-          "rank_percentage": "45"
-        },
-        {
-          "season_name": "2025/26",
-          "total_points": 1796,
-          "rank": 7699811,
-          "rank_percentage": "59"
-        }
-      ],
-      "chips_used": [],
-      "history": [
-        {
-          "event": 1,
-          "points": 59,
-          "total_points": 59,
-          "rank": 1987559,
-          "rank_sort": 2086841,
-          "overall_rank": 1987556,
-          "percentile_rank": 25,
-          "overall_rank_percentage": "22",
-          "bank": 0,
-          "value": 1000,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 2
-        },
-        {
-          "event": 2,
-          "points": 95,
-          "total_points": 154,
-          "rank": 2282526,
-          "rank_sort": 2317619,
-          "overall_rank": 1568336,
-          "percentile_rank": 25,
-          "overall_rank_percentage": "16",
-          "bank": 0,
-          "value": 1001,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 3
-        },
-        {
-          "event": 3,
-          "points": 50,
-          "total_points": 204,
-          "rank": 5669648,
-          "rank_sort": 5735100,
-          "overall_rank": 1857564,
-          "percentile_rank": 55,
-          "overall_rank_percentage": "18",
-          "bank": 0,
-          "value": 1002,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 8
-        },
-        {
-          "event": 4,
-          "points": 87,
-          "total_points": 291,
-          "rank": 1290361,
-          "rank_sort": 1300653,
-          "overall_rank": 1185331,
-          "percentile_rank": 15,
-          "overall_rank_percentage": "11",
-          "bank": 10,
-          "value": 1003,
-          "event_transfers": 2,
-          "event_transfers_cost": 0,
-          "points_on_bench": 4
-        },
-        {
-          "event": 5,
-          "points": 50,
-          "total_points": 341,
-          "rank": 4372107,
-          "rank_sort": 4435638,
-          "overall_rank": 1162645,
-          "percentile_rank": 45,
-          "overall_rank_percentage": "11",
-          "bank": 10,
-          "value": 1006,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 4
-        },
-        {
-          "event": 6,
-          "points": 49,
-          "total_points": 390,
-          "rank": 8234437,
-          "rank_sort": 8243664,
-          "overall_rank": 2195350,
-          "percentile_rank": 75,
-          "overall_rank_percentage": "20",
-          "bank": 0,
-          "value": 1004,
-          "event_transfers": 2,
-          "event_transfers_cost": 0,
-          "points_on_bench": 2
-        },
-        {
-          "event": 7,
-          "points": 56,
-          "total_points": 446,
-          "rank": 6719314,
-          "rank_sort": 6772974,
-          "overall_rank": 2730712,
-          "percentile_rank": 65,
-          "overall_rank_percentage": "25",
-          "bank": 0,
-          "value": 1008,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 5
-        },
-        {
-          "event": 8,
-          "points": 21,
-          "total_points": 467,
-          "rank": 7522138,
-          "rank_sort": 7585190,
-          "overall_rank": 3243048,
-          "percentile_rank": 70,
-          "overall_rank_percentage": "29",
-          "bank": 0,
-          "value": 1007,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 1
-        }
-      ]
-    },
     "2704184": {
       "entry_id": 2704184,
       "entry_name": "Benchwarmers",
       "player_name": "Michael Baillie",
-      "overall_rank": 14,
+      "overall_rank": 13,
       "total_points": 496,
       "gw_points": 45,
       "past_seasons": [
@@ -3305,11 +3154,185 @@
         }
       ]
     },
+    "5328351": {
+      "entry_id": 5328351,
+      "entry_name": "Hotel? Thiago",
+      "player_name": "James Sinfield",
+      "overall_rank": 14,
+      "total_points": 495,
+      "gw_points": 40,
+      "past_seasons": [
+        {
+          "season_name": "2019/20",
+          "total_points": 1669,
+          "rank": 5546006,
+          "rank_percentage": "73"
+        },
+        {
+          "season_name": "2022/23",
+          "total_points": 2351,
+          "rank": 1036180,
+          "rank_percentage": "9"
+        },
+        {
+          "season_name": "2023/24",
+          "total_points": 2303,
+          "rank": 1014212,
+          "rank_percentage": "9"
+        },
+        {
+          "season_name": "2024/25",
+          "total_points": 2449,
+          "rank": 297566,
+          "rank_percentage": "3"
+        },
+        {
+          "season_name": "2025/26",
+          "total_points": 2201,
+          "rank": 887669,
+          "rank_percentage": "7"
+        }
+      ],
+      "chips_used": [
+        {
+          "name": "3xc",
+          "time": "2026-09-18T16:46:02.270393Z",
+          "event": 5
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-10-10T08:58:09.954723Z",
+          "event": 6
+        }
+      ],
+      "history": [
+        {
+          "event": 1,
+          "points": 52,
+          "total_points": 52,
+          "rank": 3770915,
+          "rank_sort": 3957333,
+          "overall_rank": 3770910,
+          "percentile_rank": 45,
+          "overall_rank_percentage": "42",
+          "bank": 10,
+          "value": 1000,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 15
+        },
+        {
+          "event": 2,
+          "points": 93,
+          "total_points": 145,
+          "rank": 2578047,
+          "rank_sort": 2623761,
+          "overall_rank": 2562053,
+          "percentile_rank": 30,
+          "overall_rank_percentage": "26",
+          "bank": 10,
+          "value": 1002,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 14
+        },
+        {
+          "event": 3,
+          "points": 59,
+          "total_points": 204,
+          "rank": 2581540,
+          "rank_sort": 2623893,
+          "overall_rank": 1885177,
+          "percentile_rank": 25,
+          "overall_rank_percentage": "18",
+          "bank": 18,
+          "value": 1004,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 15
+        },
+        {
+          "event": 4,
+          "points": 67,
+          "total_points": 271,
+          "rank": 6073212,
+          "rank_sort": 6092374,
+          "overall_rank": 2713147,
+          "percentile_rank": 60,
+          "overall_rank_percentage": "25",
+          "bank": 22,
+          "value": 1003,
+          "event_transfers": 2,
+          "event_transfers_cost": 0,
+          "points_on_bench": 19
+        },
+        {
+          "event": 5,
+          "points": 54,
+          "total_points": 325,
+          "rank": 3220250,
+          "rank_sort": 3265209,
+          "overall_rank": 2274730,
+          "percentile_rank": 30,
+          "overall_rank_percentage": "21",
+          "bank": 21,
+          "value": 1005,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 12
+        },
+        {
+          "event": 6,
+          "points": 77,
+          "total_points": 402,
+          "rank": 948989,
+          "rank_sort": 984769,
+          "overall_rank": 1476208,
+          "percentile_rank": 10,
+          "overall_rank_percentage": "13",
+          "bank": 5,
+          "value": 1004,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 10
+        },
+        {
+          "event": 7,
+          "points": 53,
+          "total_points": 455,
+          "rank": 7530500,
+          "rank_sort": 7594106,
+          "overall_rank": 2200527,
+          "percentile_rank": 70,
+          "overall_rank_percentage": "20",
+          "bank": 5,
+          "value": 1010,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 6
+        },
+        {
+          "event": 8,
+          "points": 11,
+          "total_points": 466,
+          "rank": 10191969,
+          "rank_sort": 10201193,
+          "overall_rank": 3319200,
+          "percentile_rank": 95,
+          "overall_rank_percentage": "30",
+          "bank": 32,
+          "value": 1015,
+          "event_transfers": 2,
+          "event_transfers_cost": 0,
+          "points_on_bench": 3
+        }
+      ]
+    },
     "536521": {
       "entry_id": 536521,
       "entry_name": "Burtoon Toon",
       "player_name": "Dave Burton",
-      "overall_rank": 15,
+      "overall_rank": 14,
       "total_points": 495,
       "gw_points": 37,
       "past_seasons": [
@@ -3491,177 +3514,154 @@
         }
       ]
     },
-    "5328351": {
-      "entry_id": 5328351,
-      "entry_name": "Hotel? Thiago",
-      "player_name": "James Sinfield",
+    "4141690": {
+      "entry_id": 4141690,
+      "entry_name": "tanaka chance on me",
+      "player_name": "Theo Wilson",
       "overall_rank": 16,
-      "total_points": 492,
-      "gw_points": 37,
+      "total_points": 494,
+      "gw_points": 48,
       "past_seasons": [
         {
           "season_name": "2019/20",
-          "total_points": 1669,
-          "rank": 5546006,
-          "rank_percentage": "73"
+          "total_points": 724,
+          "rank": 7322764,
+          "rank_percentage": "96"
         },
         {
           "season_name": "2022/23",
-          "total_points": 2351,
-          "rank": 1036180,
-          "rank_percentage": "9"
-        },
-        {
-          "season_name": "2023/24",
-          "total_points": 2303,
-          "rank": 1014212,
-          "rank_percentage": "9"
-        },
-        {
-          "season_name": "2024/25",
-          "total_points": 2449,
-          "rank": 297566,
-          "rank_percentage": "3"
+          "total_points": 2007,
+          "rank": 5157346,
+          "rank_percentage": "45"
         },
         {
           "season_name": "2025/26",
-          "total_points": 2201,
-          "rank": 887669,
-          "rank_percentage": "7"
+          "total_points": 1796,
+          "rank": 7699811,
+          "rank_percentage": "59"
         }
       ],
-      "chips_used": [
-        {
-          "name": "3xc",
-          "time": "2026-09-18T16:46:02.270393Z",
-          "event": 5
-        },
-        {
-          "name": "wildcard",
-          "time": "2026-10-10T08:58:09.954723Z",
-          "event": 6
-        }
-      ],
+      "chips_used": [],
       "history": [
         {
           "event": 1,
-          "points": 52,
-          "total_points": 52,
-          "rank": 3770915,
-          "rank_sort": 3957333,
-          "overall_rank": 3770910,
-          "percentile_rank": 45,
-          "overall_rank_percentage": "42",
-          "bank": 10,
+          "points": 59,
+          "total_points": 59,
+          "rank": 1987559,
+          "rank_sort": 2086841,
+          "overall_rank": 1987556,
+          "percentile_rank": 25,
+          "overall_rank_percentage": "22",
+          "bank": 0,
           "value": 1000,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 15
+          "points_on_bench": 2
         },
         {
           "event": 2,
-          "points": 93,
-          "total_points": 145,
-          "rank": 2578047,
-          "rank_sort": 2623761,
-          "overall_rank": 2562053,
-          "percentile_rank": 30,
-          "overall_rank_percentage": "26",
-          "bank": 10,
-          "value": 1002,
+          "points": 95,
+          "total_points": 154,
+          "rank": 2282526,
+          "rank_sort": 2317619,
+          "overall_rank": 1568336,
+          "percentile_rank": 25,
+          "overall_rank_percentage": "16",
+          "bank": 0,
+          "value": 1001,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 14
+          "points_on_bench": 3
         },
         {
           "event": 3,
-          "points": 59,
+          "points": 50,
           "total_points": 204,
-          "rank": 2581540,
-          "rank_sort": 2623893,
-          "overall_rank": 1885177,
-          "percentile_rank": 25,
+          "rank": 5669648,
+          "rank_sort": 5735100,
+          "overall_rank": 1857564,
+          "percentile_rank": 55,
           "overall_rank_percentage": "18",
-          "bank": 18,
-          "value": 1004,
-          "event_transfers": 1,
+          "bank": 0,
+          "value": 1002,
+          "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 15
+          "points_on_bench": 8
         },
         {
           "event": 4,
-          "points": 67,
-          "total_points": 271,
-          "rank": 6073212,
-          "rank_sort": 6092374,
-          "overall_rank": 2713147,
-          "percentile_rank": 60,
-          "overall_rank_percentage": "25",
-          "bank": 22,
+          "points": 87,
+          "total_points": 291,
+          "rank": 1290361,
+          "rank_sort": 1300653,
+          "overall_rank": 1185331,
+          "percentile_rank": 15,
+          "overall_rank_percentage": "11",
+          "bank": 10,
           "value": 1003,
           "event_transfers": 2,
           "event_transfers_cost": 0,
-          "points_on_bench": 19
+          "points_on_bench": 4
         },
         {
           "event": 5,
-          "points": 54,
-          "total_points": 325,
-          "rank": 3220250,
-          "rank_sort": 3265209,
-          "overall_rank": 2274730,
-          "percentile_rank": 30,
-          "overall_rank_percentage": "21",
-          "bank": 21,
-          "value": 1005,
-          "event_transfers": 1,
+          "points": 50,
+          "total_points": 341,
+          "rank": 4372107,
+          "rank_sort": 4435638,
+          "overall_rank": 1162645,
+          "percentile_rank": 45,
+          "overall_rank_percentage": "11",
+          "bank": 10,
+          "value": 1006,
+          "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 12
+          "points_on_bench": 4
         },
         {
           "event": 6,
-          "points": 77,
-          "total_points": 402,
-          "rank": 948989,
-          "rank_sort": 984769,
-          "overall_rank": 1476208,
-          "percentile_rank": 10,
-          "overall_rank_percentage": "13",
-          "bank": 5,
+          "points": 49,
+          "total_points": 390,
+          "rank": 8234437,
+          "rank_sort": 8243664,
+          "overall_rank": 2195350,
+          "percentile_rank": 75,
+          "overall_rank_percentage": "20",
+          "bank": 0,
           "value": 1004,
-          "event_transfers": 0,
+          "event_transfers": 2,
           "event_transfers_cost": 0,
-          "points_on_bench": 10
+          "points_on_bench": 2
         },
         {
           "event": 7,
-          "points": 53,
-          "total_points": 455,
-          "rank": 7530500,
-          "rank_sort": 7594106,
-          "overall_rank": 2200527,
-          "percentile_rank": 70,
-          "overall_rank_percentage": "20",
-          "bank": 5,
-          "value": 1010,
+          "points": 56,
+          "total_points": 446,
+          "rank": 6719314,
+          "rank_sort": 6772974,
+          "overall_rank": 2730712,
+          "percentile_rank": 65,
+          "overall_rank_percentage": "25",
+          "bank": 0,
+          "value": 1008,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 6
+          "points_on_bench": 5
         },
         {
           "event": 8,
-          "points": 11,
-          "total_points": 466,
-          "rank": 10191969,
-          "rank_sort": 10201193,
-          "overall_rank": 3319200,
-          "percentile_rank": 95,
-          "overall_rank_percentage": "30",
-          "bank": 32,
-          "value": 1015,
-          "event_transfers": 2,
+          "points": 21,
+          "total_points": 467,
+          "rank": 7522138,
+          "rank_sort": 7585190,
+          "overall_rank": 3243048,
+          "percentile_rank": 70,
+          "overall_rank_percentage": "29",
+          "bank": 0,
+          "value": 1007,
+          "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 3
+          "points_on_bench": 1
         }
       ]
     },
@@ -4123,8 +4123,8 @@
       "entry_name": "FCGP",
       "player_name": "Gareth Prince",
       "overall_rank": 20,
-      "total_points": 474,
-      "gw_points": 59,
+      "total_points": 477,
+      "gw_points": 62,
       "past_seasons": [
         {
           "season_name": "2024/25",
@@ -4279,8 +4279,8 @@
       "entry_name": "AC Cabbage",
       "player_name": "Mark Astle",
       "overall_rank": 21,
-      "total_points": 471,
-      "gw_points": 30,
+      "total_points": 468,
+      "gw_points": 27,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -5097,8 +5097,8 @@
       "entry_name": "Shirley Pensioners",
       "player_name": "Tony Shirley",
       "overall_rank": 26,
-      "total_points": 455,
-      "gw_points": 52,
+      "total_points": 452,
+      "gw_points": 49,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -5598,8 +5598,8 @@
       "entry_name": "Stach'd XI",
       "player_name": "Sam Hammond",
       "overall_rank": 29,
-      "total_points": 399,
-      "gw_points": 24,
+      "total_points": 400,
+      "gw_points": 25,
       "past_seasons": [
         {
           "season_name": "2019/20",
@@ -5769,5 +5769,5 @@
       ]
     }
   },
-  "last_updated": "2026-10-25T17:58:30.717849+00:00"
+  "last_updated": "2026-10-25T18:51:45.839267+00:00"
 }
