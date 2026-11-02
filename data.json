@@ -76,8 +76,8 @@
         "entry": 197144,
         "entry_name": "Awoniyi Be Adored",
         "player_name": "Jack Howkins",
-        "event_total": 66,
-        "total": 624,
+        "event_total": 64,
+        "total": 622,
         "gw_history": [
           69,
           183,
@@ -139,8 +139,8 @@
         "entry": 3182697,
         "entry_name": "Hoquenhiem",
         "player_name": "Lawrence Hoque",
-        "event_total": 76,
-        "total": 603,
+        "event_total": 74,
+        "total": 601,
         "gw_history": [
           73,
           154,
@@ -202,8 +202,8 @@
         "entry": 1970466,
         "entry_name": "The Rolling People",
         "player_name": "Oliver Sherwood",
-        "event_total": 46,
-        "total": 565,
+        "event_total": 44,
+        "total": 563,
         "gw_history": [
           54,
           134,
@@ -244,8 +244,8 @@
         "entry": 536521,
         "entry_name": "Burtoon Toon",
         "player_name": "Dave Burton",
-        "event_total": 53,
-        "total": 553,
+        "event_total": 51,
+        "total": 551,
         "gw_history": [
           49,
           123,
@@ -454,8 +454,8 @@
         "entry": 1318685,
         "entry_name": "Shirley Pensioners",
         "player_name": "Tony Shirley",
-        "event_total": 61,
-        "total": 513,
+        "event_total": 59,
+        "total": 511,
         "gw_history": [
           51,
           134,
@@ -475,8 +475,8 @@
         "entry": 7323730,
         "entry_name": "AC Cabbage",
         "player_name": "Mark Astle",
-        "event_total": 34,
-        "total": 513,
+        "event_total": 32,
+        "total": 511,
         "gw_history": [
           73,
           155,
@@ -496,8 +496,8 @@
         "entry": 110291,
         "entry_name": "lads on toure",
         "player_name": "Keiran Nichols",
-        "event_total": 38,
-        "total": 500,
+        "event_total": 36,
+        "total": 498,
         "gw_history": [
           73,
           154,
@@ -517,8 +517,8 @@
         "entry": 430915,
         "entry_name": "#Forever20",
         "player_name": "Craig Sess",
-        "event_total": 29,
-        "total": 499,
+        "event_total": 27,
+        "total": 497,
         "gw_history": [
           41,
           168,
@@ -554,13 +554,13 @@
       },
       {
         "id": null,
-        "rank": 26,
+        "rank": 27,
         "last_rank": 23,
         "entry": 8910607,
         "entry_name": "Ben There Done That",
         "player_name": "Ben Cruwys",
-        "event_total": 26,
-        "total": 492,
+        "event_total": 24,
+        "total": 490,
         "gw_history": [
           42,
           127,
@@ -580,8 +580,8 @@
         "entry": 6874018,
         "entry_name": "Cumberland sausage",
         "player_name": "Michael Smith",
-        "event_total": 54,
-        "total": 486,
+        "event_total": 52,
+        "total": 484,
         "gw_history": [
           27,
           98,
@@ -601,8 +601,8 @@
         "entry": 2968459,
         "entry_name": "Stach'd XI",
         "player_name": "Sam Hammond",
-        "event_total": 33,
-        "total": 438,
+        "event_total": 31,
+        "total": 436,
         "gw_history": [
           51,
           119,
@@ -1454,8 +1454,8 @@
       "entry_name": "Awoniyi Be Adored",
       "player_name": "Jack Howkins",
       "overall_rank": 4,
-      "total_points": 624,
-      "gw_points": 66,
+      "total_points": 622,
+      "gw_points": 64,
       "past_seasons": [
         {
           "season_name": "2020/21",
@@ -2010,8 +2010,8 @@
       "entry_name": "Hoquenhiem",
       "player_name": "Lawrence Hoque",
       "overall_rank": 7,
-      "total_points": 603,
-      "gw_points": 76,
+      "total_points": 601,
+      "gw_points": 74,
       "past_seasons": [
         {
           "season_name": "2020/21",
@@ -2626,8 +2626,8 @@
       "entry_name": "The Rolling People",
       "player_name": "Oliver Sherwood",
       "overall_rank": 10,
-      "total_points": 565,
-      "gw_points": 46,
+      "total_points": 563,
+      "gw_points": 44,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -2997,8 +2997,8 @@
       "entry_name": "Burtoon Toon",
       "player_name": "Dave Burton",
       "overall_rank": 12,
-      "total_points": 553,
-      "gw_points": 53,
+      "total_points": 551,
+      "gw_points": 51,
       "past_seasons": [
         {
           "season_name": "2019/20",
@@ -4809,8 +4809,8 @@
       "entry_name": "Shirley Pensioners",
       "player_name": "Tony Shirley",
       "overall_rank": 22,
-      "total_points": 513,
-      "gw_points": 61,
+      "total_points": 511,
+      "gw_points": 59,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -4981,8 +4981,8 @@
       "entry_name": "AC Cabbage",
       "player_name": "Mark Astle",
       "overall_rank": 23,
-      "total_points": 513,
-      "gw_points": 34,
+      "total_points": 511,
+      "gw_points": 32,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -5147,8 +5147,8 @@
       "entry_name": "lads on toure",
       "player_name": "Keiran Nichols",
       "overall_rank": 24,
-      "total_points": 500,
-      "gw_points": 38,
+      "total_points": 498,
+      "gw_points": 36,
       "past_seasons": [
         {
           "season_name": "2025/26",
@@ -5312,8 +5312,8 @@
       "entry_name": "#Forever20",
       "player_name": "Craig Sess",
       "overall_rank": 25,
-      "total_points": 499,
-      "gw_points": 29,
+      "total_points": 497,
+      "gw_points": 27,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -5647,9 +5647,9 @@
       "entry_id": 8910607,
       "entry_name": "Ben There Done That",
       "player_name": "Ben Cruwys",
-      "overall_rank": 26,
-      "total_points": 492,
-      "gw_points": 26,
+      "overall_rank": 27,
+      "total_points": 490,
+      "gw_points": 24,
       "past_seasons": [
         {
           "season_name": "2020/21",
@@ -5832,8 +5832,8 @@
       "entry_name": "Cumberland sausage",
       "player_name": "Michael Smith",
       "overall_rank": 28,
-      "total_points": 486,
-      "gw_points": 54,
+      "total_points": 484,
+      "gw_points": 52,
       "past_seasons": [
         {
           "season_name": "2014/15",
@@ -6052,8 +6052,8 @@
       "entry_name": "Stach'd XI",
       "player_name": "Sam Hammond",
       "overall_rank": 29,
-      "total_points": 438,
-      "gw_points": 33,
+      "total_points": 436,
+      "gw_points": 31,
       "past_seasons": [
         {
           "season_name": "2019/20",
@@ -6238,5 +6238,5 @@
       ]
     }
   },
-  "last_updated": "2026-11-01T23:27:21.299753+00:00"
+  "last_updated": "2026-11-02T03:23:49.116110+00:00"
 }
