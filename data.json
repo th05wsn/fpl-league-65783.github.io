@@ -266,8 +266,8 @@
         "entry": 778821,
         "entry_name": "Autumn all stars",
         "player_name": "Karen Williams",
-        "event_total": 19,
-        "total": 647,
+        "event_total": 21,
+        "total": 649,
         "gw_history": [
           54,
           129,
@@ -3405,8 +3405,8 @@
       "entry_name": "Autumn all stars",
       "player_name": "Karen Williams",
       "overall_rank": 12,
-      "total_points": 647,
-      "gw_points": 19,
+      "total_points": 649,
+      "gw_points": 21,
       "past_seasons": [
         {
           "season_name": "2023/24",
@@ -7201,5 +7201,5 @@
       ]
     }
   },
-  "last_updated": "2026-11-21T22:58:24.607390+00:00"
+  "last_updated": "2026-11-22T01:47:24.568667+00:00"
 }
